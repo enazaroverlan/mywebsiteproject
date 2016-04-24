@@ -1,0 +1,152 @@
+body
+{
+    font-family: cursive;
+    background: url(../images/flower.jpg);
+    
+}
+
+.Top_Nav
+{
+    border: 1px solid blue;
+    margin: 5px auto 0px auto;
+    width: 1000px;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    background: #00BFFF;
+}
+
+.my_links{
+    color: orange;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.my_links:Hover{
+    color: orange;
+    text-decoration: underline;
+    font-size: 11pt;
+}
+
+
+.Header
+{
+    border: 1px solid blue;
+    margin: 5px auto 0px auto;
+    width: 1000px;
+    height: 300px;
+    background: url(../images/Header.jpg);
+}
+
+.Mid_Nav
+{
+    border: 1px solid blue;
+    margin: 5px auto 0px auto;
+    width: 1000px;
+    height: 50px;
+    background: #00BFFF;
+}
+
+.Content_mine
+{
+    margin: 5px auto 0px auto;
+    width: 1000px;
+    height: 100%;
+}
+
+.Main_Content
+{
+    border: 1px solid blue;
+    width: 80%;
+    float: left;
+    background: white;
+}
+
+.Menu_Nav
+{
+    margin: 0px 80%;
+    width: 20%;
+    border-radius: 00 00 00 00;
+}
+
+.footer
+{
+    border: 1px solid blue;
+    margin: 5px auto 0px auto;
+    width: 1000px;
+    height: 60px;
+    border-radius: 0px 0px 10px 10px;
+    background: #00BFFF;
+}
+
+.Top_Nav_Element
+{
+    border: 0px solid blue;
+    /*background: #CCFF33;*/
+    width: 110px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 8px;
+    float: left;
+    text-align: center;
+}
+
+/*.Top_Nav_Element:Hover
+{
+    color: #CCFF33;
+    text-decoration: underline;
+}
+
+.Top_Nav_Element:Active
+{
+    color: aquamarine;
+    text-decoration: none;
+}*/
+
+.Top_Nav_Element_Active
+{
+    border: 1px solid blue;
+    background: #CCFF33;
+    width: 110px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 8px;
+    float: left;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.block
+{
+    width: 100px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.block_Header
+{
+    background: url(../images/BlockNav.png) no-repeat;
+    width: 200px;
+    height: 50px;
+    font-family: cursive;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 12pt;
+    color: orange;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.block_content
+{
+    background: white;
+    border: 1px;
+    border-left-color: url(../images/Line.png);
+    border-bottom-color: url(../images/Line.png);
+    width: 180px;
+    padding: 5px;
+}
+
+.fields
+{
+    width: 170px;
+}
